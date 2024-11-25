@@ -1,2 +1,4 @@
-# SimpleMessagingApp
-blockchain
+truffle compile
+truffle migrate --network development
+
+
