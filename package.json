@@ -1,0 +1,20 @@
+{
+  "name": "simplemessagingapp",
+  "version": "1.0.0",
+  "description": "truffle compile\r truffle migrate --network development",
+  "main": "truffle-config.js",
+  "scripts": {
+    "start": "npm run start-server", 
+    "start-server": "node backend/server.js", 
+    "start-client": "npm --prefix frontend start", 
+    "build": "npm --prefix frontend run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {}
+}
